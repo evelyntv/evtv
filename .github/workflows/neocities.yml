@@ -1,3 +1,13 @@
+# Github workflow to deploy site to Neocities using github actions
+# 
+# Full discretion: 
+#   Code was copied from Sophie Koonin (who is slowly becoming my 
+#   favorite person in the world)
+#
+# Links:
+#   - [Sophie Koonin's Tutorial](https://localghost.dev/blog/how-i-deploy-my-eleventy-site-to-neocities/)
+#   - [Nenrikido](https://nenrikido.neocities.org/blog/post/deploy-site/)
+
 name: "Deploy to Neocities"
 on:
   push:
@@ -12,17 +22,11 @@ jobs:
       - uses: actions/setup-node@v3 # install node.js
         with:
           node-version: "18"
-          cache: "yarn" # I'm using yarn rather than npm
-      - run: yarn install # install dependencies
-      - run: yarn build # build my project
-        env: # the env vars I need to build my site
-          WEBMENTION_IO_TOKEN: ${{ secrets.WEBMENTION_IO_TOKEN }} 
+          cache: "npm" # I'm using npm
+      - run: npm install # install dependencies
+      - run: npm build # build my project
       - uses: bcomnes/deploy-to-neocities@v1 # deploy!
         with: # config for the action
           api_token: ${{ secrets.NEOCITIES_TOKEN }}
           dist_dir: "src/" # my build output directory
           cleanup: true # delete anything on neocities that's not in my dist_dir
-
-on:
-  schedule:
-    - cron: 0 8/9 * * *  
