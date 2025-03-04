@@ -1,0 +1,22 @@
+/* body {
+	background: radial-gradient(circle, 
+    rgba(232,232,232,1) 0%, 
+    rgba(172,255,63,1) 37%, 
+    rgba(199,255,102,1) 48%, 
+    rgba(255,102,193,1) 65%, 
+    rgba(254,170,255,1) 80%, 
+    rgba(150,138,255,1) 94%);
+	justify-content: center;
+	align-content: center;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.navigation-container div {
+    width: 3%;
+    float: left;
+} */

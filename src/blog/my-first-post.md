@@ -1,5 +1,6 @@
 ---
 title: my first blogpost
+permalink: "/{{ title | slugify }}/"
 ---
 
 ## Content
