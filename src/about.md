@@ -1,11 +1,9 @@
 ---
-title: About Me
+title: About
 layout: post.njk
 ---
 
-## Hello, World!
-
-[insert picture]
+<!-- [Insert Picture] -->
 
 Hi! My name is Evelyn, and I am a Library Desktop Technician at the University of Southern Mississippi.
 

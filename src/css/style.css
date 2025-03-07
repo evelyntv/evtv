@@ -4,6 +4,16 @@
     --primary-color: #f3deba;
     --secondary-color: #abc4aa;
     --hover-color: #a9907e;
+
+    --accent: #754668;
+
+    --dark-moss-green: #606c38ff;
+    --dark-moss-green-complementary: #44386C;
+    --pakistan-green: #283618ff;
+    --pakistan-green-complementary: #261836;
+    --cornsilk: #fefae0ff;
+    --earth-yellow: #dda15eff;
+    --tigers-eye: #bc6c25ff;
 }
 
 /* Ripping off Puralistic */
@@ -27,13 +37,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 1;
 
     border-style: solid;
     border-top-width: 1px;
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
+
+    background-color: var(--cornsilk);
+    padding: 1%;
 }
 
 .nav {
@@ -88,3 +100,28 @@ footer {
 .footer-content .footer-buttons {
     padding-top: 1%;
 }
+
+a {
+    color: var(--dark-moss-green);
+}
+
+ /* unvisited link */
+ a:link {
+    color: var(--dark-moss-green);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--dark-moss-green);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--dark-moss-green-complementary);
+  }
+  
+  /* selected link */
+  a:active {
+    /* subject to change */
+    color: blue;
+  } 

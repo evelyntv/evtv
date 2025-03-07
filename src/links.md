@@ -1,22 +1,27 @@
 ---
 layout: base.njk
-title: Cool Sites
+title: Links
 ---
 
-## Read Later
+## Links That I Run
+- [hattiesburg.askapunk.net](https://hattiesburg.askapunk.net/)
+
+## Links That I Don't Run
+
+### Read Later
 
 My personal 'read later' list, here's what I'm planning to look at.
 
 - [status.cafe](https://status.cafe/)
 - [Building a Database Driven Eleventy Site](https://www.raymondcamden.com/2021/04/15/building-a-database-driven-eleventy-site)
 
-## Practical stuff
+### Practical stuff
 
 Hubs of information, or websites that I come back to repeatedly.
 
 - [riseup.net](https://riseup.net/)
 
-## Tutorials
+### Tutorials
 
 Guides I followed to get this website up-and-running
 
@@ -24,10 +29,10 @@ Guides I followed to get this website up-and-running
 - [localghost.dev](https://localghost.dev/)
 - [Flamed Fury](https://flamedfury.com/guides/11ty-homepage-neocities/) (outdated)
 
-## Zines
+### Zines
 - [An anarchist introduction to federated social media](https://distro.f-91w.club/fedizine/)
 
-## Inspirations
+### Inspirations
 
 Amazing and cool websites that made me want to make one of my own!
 
@@ -35,6 +40,6 @@ Amazing and cool websites that made me want to make one of my own!
 - [machine-cat.space](https://machine-cat.space/home/)
 - [dokode.moe](https://dokode.moe/indexv3)
 
-## Resources
+### Resources
 
 - [gifcities.org](https://gifcities.org/)

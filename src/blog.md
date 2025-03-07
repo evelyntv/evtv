@@ -1,7 +1,6 @@
 ---
-title: Blog Posts
+title: Blogs
 layout: base.njk
 ---
 
-## blog posts
 {% include "postlist.njk" %}
