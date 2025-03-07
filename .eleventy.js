@@ -4,15 +4,9 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css");
     eleventyConfig.addWatchTarget("./src/css/");
 
-    // Plugins
-    eleventyConfig.addPlugin(pluginTOC);
-    
-    eleventyConfig.addFilter("randomItem", (arr) => {
-      arr.sort(() => {
-        return 0.5 - Math.random();
-      });
-      return arr.slice(0, 1);
-    });
+    eleventyConfig.addPassthroughCopy("./src/img");
+    eleventyConfig.addWatchTarget("./src/img/");
+
     return {
       dir: {
         input: "src",

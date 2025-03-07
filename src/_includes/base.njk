@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-        <header>
-            {% include 'header.njk' %}
-            <nav>
-                {% include 'navigation.njk' %}
-            </nav>
-        </header>
+    <header>
+        {% include 'header.njk' %}
+    </header>
+
+    <nav>
+        {% include 'navigation.njk' %}
+    </nav>
 
     <main>
-        <h1> {{ title }} </h1>
-        {{ content | safe }}
+            <h1> {{ title }} </h1>
+            {{ content | safe }}
     </main>
 
     <footer>{% include 'footer.njk' %}</footer>

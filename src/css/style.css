@@ -1,22 +1,90 @@
-/* body {
-	background: radial-gradient(circle, 
-    rgba(232,232,232,1) 0%, 
-    rgba(172,255,63,1) 37%, 
-    rgba(199,255,102,1) 48%, 
-    rgba(255,102,193,1) 65%, 
-    rgba(254,170,255,1) 80%, 
-    rgba(150,138,255,1) 94%);
-	justify-content: center;
-	align-content: center;
+:root {
+    --nav-color: #675d50;
+    --nav-text: #fff;
+    --primary-color: #f3deba;
+    --secondary-color: #abc4aa;
+    --hover-color: #a9907e;
 }
 
-.navigation-container {
+/* Ripping off Puralistic */
+/* * {font-family: Monaco, "Lucida Console", monospace} */
+
+/* Ripping off Techdirt */
+* {font-family: trebuchet ms, arial, helvetica, sans-serif}
+
+body { 
+    margin-left: 10%;
+    margin-right: 10%;
+    border: black;
+    /* border-width: 1px;
+    border-style: solid; */
+    max-width: 100%;
+
+
+}
+
+main {
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
-.navigation-container div {
-    width: 3%;
-    float: left;
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: black; 
+    list-style: none;
+    /* background-color: pink; */
+    padding-left: 0%;
+}
+
+.nav li {
+    padding-right: 5%;
+}
+
+header {
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* .left-main {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin-right: 2.5%;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    margin-left: 2.5%;
 } */
+
+footer {
+    text-align: center;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-content .footer-buttons {
+    padding-top: 1%;
+}

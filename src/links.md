@@ -34,3 +34,7 @@ Amazing and cool websites that made me want to make one of my own!
 - [localghost.dev](https://localghost.dev/) *yes, she also served as an inspiration site*
 - [machine-cat.space](https://machine-cat.space/home/)
 - [dokode.moe](https://dokode.moe/indexv3)
+
+## Resources
+
+- [gifcities.org](https://gifcities.org/)
