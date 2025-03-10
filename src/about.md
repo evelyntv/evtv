@@ -19,7 +19,7 @@ My thesis was completed outside of my major, in My University's [School of Media
 
 I do not mean to say that my research is entirely without merit! But what it essentially boils down to is this: **I get to read transphobic tweets, categorize them, and then make charts that visualize my categorizations.** 
 
-Since graduating and starting work at USM, I've taken coursework to supplement my thesis research and undergraduate coursework. To borrow a concept from the game [Disco Elysium](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/) (go play it or watch a playthrough if you haven't already, but I'd recommend a blind playthrough), my current *mind project* is finding a way to marry my education in computer science and interest in politics and communications... without getting a poverty wage.  
+<!-- Since graduating and starting work at USM, I've taken coursework to supplement my thesis research and undergraduate coursework. To borrow a concept from the game [Disco Elysium](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/) (go play it or watch a playthrough if you haven't already, but I'd recommend a blind playthrough), my current *mind project* is finding a way to marry my education in computer science and interest in politics and communications... without getting a poverty wage.   -->
 
 <!-- ## """Philosophy"""
 

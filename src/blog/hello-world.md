@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-date: 2025-03-07
+date: 2025-03-10
 permalink: "/{{ title | slugify }}/"
 ---
 

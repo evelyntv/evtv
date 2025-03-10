@@ -23,14 +23,12 @@
 * {font-family: trebuchet ms, arial, helvetica, sans-serif}
 
 body { 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     border: black;
     /* border-width: 1px;
     border-style: solid; */
     max-width: 100%;
-
-
 }
 
 main {

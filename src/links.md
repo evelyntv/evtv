@@ -12,6 +12,7 @@ title: Links
 
 My personal 'read later' list, here's what I'm planning to look at.
 
+- [elevnty music](https://damianwalsh.co.uk/posts/creating-connections-with-music-and-technology/)
 - [status.cafe](https://status.cafe/)
 - [Building a Database Driven Eleventy Site](https://www.raymondcamden.com/2021/04/15/building-a-database-driven-eleventy-site)
 
