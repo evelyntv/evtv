@@ -1,6 +1,8 @@
 ---
 title: Blogs
 layout: base.njk
+tags: rootLink
 ---
 
-{% include "postlist.njk" %}
+{%- from "src/_includes/macro.njk" import postInfo -%} {% for post in
+collections.post | reverse %} {{ postInfo(post) }} {% endfor %}

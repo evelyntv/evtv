@@ -1,4 +1,5 @@
-const markdownItCheckbox = require("markdown-it-task-checkbox")
+const markdownItCheckbox = require("markdown-it-task-checkbox");
+const nicedate = require("nicedate");
 
 var md = require('markdown-it')()
             .use(require('markdown-it-task-checkbox'),{
@@ -29,10 +30,25 @@ module.exports = async function (eleventyConfig) {
 
   eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItCheckbox));
 
+  // eleventyConfig.addShortcode(
+  //   "niceDate",
+  //   (date) =>
+  //     `${new Date(date).toLocaleDateString("en-GB", { dateStyle: "full" })}`,
+  // );
+
+  // eleventyConfig.addFilter("numCommas", (value) => value.toLocaleString());
+
+  // eleventyConfig.addCollection("post", function(collection) {
+  //   return collection.getFilteredByGlob("blog/**/*.md");
+  // });
+
   return {
     dir: {
       input: "src",
       output: "public",
     },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
   };
 };
+
