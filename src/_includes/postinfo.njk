@@ -5,5 +5,8 @@
 <section class="post-info">
   <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
   <p class="subtitle">{{ post.data.subtitle }}</p>
-  {# <small>{% niceDate post.date %} &bullet; {{ wordCount | numCommas }} words</small> #}
+  {# <small>{% post.date.toString() %}</small> #}
+  <small>{{ post.date | postDate }} {{ wordCount | numCommas }} words</small>
+  {# <small>{{ wordCount | numCommas }} words</small> #}
+
 </section>
