@@ -3,6 +3,7 @@ layout: base.njk
 ---
 
 <article>
-    Written by {{ author | safe }} on {{ page.date.toString() | safe }}
+    
+    <small>Written by {{ author }} on {{ date }}</small>
     {{ content | safe  }}
 </article>
