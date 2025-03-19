@@ -4,6 +4,6 @@ layout: base.njk
 
 <article>
     
-    <small>Written by {{ author }} on {{ date }}</small>
+    <small>Written by {{ author }} on {{ page.date | postDate }}</small>
     {{ content | safe  }}
 </article>
