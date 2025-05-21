@@ -1,7 +1,6 @@
 ---
 title: Homepage
 layout: base.njk
-
 ---
 
 Hi! Welcome to my website. This is a place for me to host my portfolio and blog.

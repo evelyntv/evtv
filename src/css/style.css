@@ -25,10 +25,12 @@
 body { 
     margin-left: 5%;
     margin-right: 5%;
+    margin: auto;
     border: black;
     /* border-width: 1px;
     border-style: solid; */
     max-width: 100%;
+    width: 50%;
 }
 
 main {
@@ -43,7 +45,7 @@ main {
     border-right-width: 0px;
 
     background-color: var(--cornsilk);
-    padding: 1%;
+    padding: 2%;
 }
 
 .nav {

@@ -8,7 +8,7 @@ layout: base.njk
     - [X] Add accurate dates to blogposts list
     - [X] Add dates to blog posts 
 - [X] Add latest post to homescreen
-- [X] Add [status.cafe](https://status.cafe/) status thing
+- [ ] Add [status.cafe](https://status.cafe/) status thing
     - [ ] Find out why it doesn't work on neocities
     - [ ] Find a better spot for it on the website
 - [ ] Add ico
